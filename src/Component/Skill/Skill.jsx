@@ -8,7 +8,7 @@ import figma from "../../assets/figma.png"
 const Skill = () => {
   return (
     <div>
-        <section className='text-[#ffffff] bg-[#374151] pl-[10px] pr-[10px]  w-[100vw] h-[300px] flex flex-col justify-start '>
+        <section className='text-[#ffffff] bg-[#030712]    pl-[10px] pr-[10px]  w-[100vw] h-[300px] flex flex-col justify-start '>
             {/* Skills heading */}
             <div className='  w-[100%] h-[20%] flex flex-col items-center '>
             <button>Skills</button>
