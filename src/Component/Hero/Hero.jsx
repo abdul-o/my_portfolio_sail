@@ -3,7 +3,7 @@ import twitter from "../../assets/twitter.png"
 import github from "../../assets/github.png"
 import available from "../../assets/available.png"
 import location from "../../assets/location.png"
-import me from "../../assets/me.png"
+import profileavatar from "../../assets/profileavatar.png"
 
 const Hero = () => {
     return (
@@ -14,7 +14,7 @@ const Hero = () => {
                 {/* PROFILE IMAGE */}
                 <div className='   sm:h-[100%] flex justify-center items-center h-[40%] 
                                   mb-[15px] w-[100%] sm:w-[50%]'>
-                    <img src={me} alt="" className='rounded-[20px] w-[80%] h-[100%] ' />
+                    <img src={profileavatar} alt="" className='rounded-[20px] w-[80%] h-[100%] ' />
                 </div>
 
                 {/* ABOUT ME DETAILS */}
