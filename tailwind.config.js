@@ -8,6 +8,9 @@ export default {
   theme: {
     theme: {
       screens: {
+        'lo': '200px',
+        // => @media (min-width: 2px) { ... }
+
         'sm': '640px',
         // => @media (min-width: 640px) { ... }
   
@@ -22,9 +25,17 @@ export default {
   
         '2xl': '1536px',
         // => @media (min-width: 1536px) { ... }
+
+        
       }
     },
-    extend: {},
+    extend: {
+
+      screens: {
+        'lo': '200px',
+      }
+
+    },
   },
   plugins: [],
 }

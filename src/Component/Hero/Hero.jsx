@@ -4,21 +4,23 @@ import twitter from "../../assets/twitter.png"
 import github from "../../assets/github.png"
 import available from "../../assets/available.png"
 import location from "../../assets/location.png"
+import me from "../../assets/me.png"
 
 const Hero = () => {
     return (
         <div>
             <section className=" bg-[#030712] text-[#ffffff] pl-[10px] pr-[10px] justify-evenly 
                                 pt-[15px] w-[100vw] h-[80vh] flex flex-col
-                                sm:flex sm:flex-row-reverse sm:h-[40vh]">
+                                sm:flex sm:flex-row-reverse sm:h-[50vh] sm:pl-[25px] sm:pr-[25px]">
                 {/* PROFILE IMAGE */}
-                <div className='sm:h-[90%] flex justify-center items-center h-[40%] mb-[15px] w-[100%] sm:w-[40%]'>
-                    <img src={profilepic} alt="" className='rounded-[20px] w-[80%] h-[100%] ' />
+                <div className='   sm:h-[100%] flex justify-center items-center h-[40%] 
+                                  mb-[15px] w-[100%] sm:w-[50%]'>
+                    <img src={me} alt="" className='rounded-[20px] w-[80%] h-[100%] ' />
                 </div>
 
                 {/* ABOUT ME DETAILS */}
-                <div className=' sm:h-[100%] flex w-[100%] h-[60%] flex-col 
-                                justify-evenly sm:w-[60%] sm:justify-evenly'>
+                <div className='   sm:h-[100%] flex w-[100%] h-[60%] flex-col 
+                                justify-evenly sm:w-[50%] sm:justify-evenly'>
                     <div className='sm:h-[42%] w-[100%] h-[52%]  '>
                         <h2 className='text-[20px]'>Hi, I am Abdullateef</h2>
                         <p>I am a full-stack developer Lorem ipsum dolor sit
@@ -27,7 +29,7 @@ const Hero = () => {
                             vitae recusandae sit quidem magnam aperiam iure?</p>
                     </div>
                     {/* LOCATION AND AVAILABILITY */}
-                    <div className=' flex-col w-[100%] h-[25%] flex justify-evenly'>
+                    <div className='  flex-col w-[100%] h-[25%] flex justify-evenly'>
                         <div className='flex h-[30%] w-[100%] '>
                              <img src={location} alt="" className='mr-[10px] h-[15px] w-[15px]' /> 
                             <span>Lagos Nigeria</span>
