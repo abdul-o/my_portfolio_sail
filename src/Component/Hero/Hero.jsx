@@ -1,5 +1,4 @@
 import React from 'react'
-import profilepic from "../../assets/profilepic.png"
 import twitter from "../../assets/twitter.png"
 import github from "../../assets/github.png"
 import available from "../../assets/available.png"
